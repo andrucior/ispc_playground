@@ -26,6 +26,7 @@
     <None Include="hello.ispc" />
     <None Include="vector_add.ispc" />
     <None Include="mandelbrot.ispc" />
+    <None Include=".gitignore" />
   </ItemGroup>
   <ItemGroup>
     <Object Include="hello.obj" />
@@ -39,6 +40,9 @@
       <Filter>Pliki nagłówkowe</Filter>
     </ClInclude>
     <ClInclude Include="common\timing.h">
+      <Filter>Pliki nagłówkowe</Filter>
+    </ClInclude>
+    <ClInclude Include="common\stb_image_write.h">
       <Filter>Pliki nagłówkowe</Filter>
     </ClInclude>
   </ItemGroup>
